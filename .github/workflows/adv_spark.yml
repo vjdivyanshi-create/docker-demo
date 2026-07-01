@@ -26,7 +26,7 @@ jobs:
 
       - name: Configure Databricks
         env:
-          DATABRICKS_ADVANCE: ${{ secrets.DATABRICKS_HOST }}
+          DATABRICK_ADVANCE: ${{ secrets.DATABRICKS_HOST }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
         run: |
           mkdir -p ~/.databricks
